@@ -1,0 +1,63 @@
+
+  
+  
+  img {
+    width: 133px;
+    height: 120px;
+    border-style: solid;
+    padding: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    opacity: 1;
+    
+  }
+  .choose-character, .your-character {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 9px;
+    background-color: white;
+    
+}
+
+ .enemy, .defender {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 9px;
+    background-color: red;
+    
+}
+
+
+/* Bottom left text */
+p {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.health {
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.backgroundImage {
+    background:url(admin-user-bg.png) no-repeat top center;
+    background: transparent url("https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/12194763_10102699349907999_2443349509300337244_o.jpg?_nc_cat=104&_nc_ht=scontent-sjc3-1.xx&oh=eae4c811dce741092e001d1bfdd4e263&oe=5C75D7DE") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    height: 80%;
+    
+ }
+ h1, h3 {
+    background-color:white;
+    opacity: 0.8;
+ }
+ .row {
+    margin-left: 0px;
+ }
