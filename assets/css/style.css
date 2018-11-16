@@ -1,4 +1,6 @@
-
+.container {
+    background: rgba(175, 175, 175, 0.9);
+}
   
   
   img {
@@ -38,7 +40,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.health {
+.health, .health1, .health2, .health3, .health0 {
     position: absolute;
     top: 91%;
     left: 50%;
@@ -54,10 +56,7 @@ p {
     height: 80%;
     
  }
- h1, h3 {
-    background-color:white;
-    opacity: 0.8;
- }
+
  .row {
     margin-left: 0px;
  }
